@@ -1,0 +1,40 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f5f7fa;
+  text-align: center;
+  padding: 50px;
+  color: #333;
+}
+
+h1 {
+  color: #1db954; /* Spotify green */
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #1db954;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #1db954;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+button:hover {
+  background-color: #17a74b;
+}
+
+#results {
+  margin-top: 30px;
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
